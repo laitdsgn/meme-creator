@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="res/icon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+
+    <body>
+        <div class="container mt-4">
+            <h1 class="text-center mb-4">
+                <h3 class="animate-charcter"> Meme creator</h3> <img width="64px" src="res/logo.png" alt="Logo">
+            </h1>
+
+
+            <div class="game">
+                <div id="memeContainer" class="mb-3">
+                    <div id="memeText1"></div>
+                    <div id="memeText2"></div>
+                    <img id="meme" src="" alt="Random Meme">
+                </div>
+                <br>
+                <input type="text" id="textInput"  placeholder="Label 1">
+                <input type="text" id="textInput2" placeholder="Label 2">
+                <br>
+                <label for="white">White text:</label>
+                <input type="radio" name="color" id="white" checked>
+                <label for="black">Black text:</label>
+                <input type="radio" name="color" id="black">
+
+                <div class="text-center">
+                    <button onclick="downloadMeme()" class="btn btn-dark" id="download">Download Meme</button>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>made with &#10084; by laitdsgn &#169; 2024</p>
+        </footer>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
+

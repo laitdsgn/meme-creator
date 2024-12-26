@@ -1,0 +1,109 @@
+body {
+    background-image: url(res/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#memeContainer {
+    position: relative;
+    display: inline-block;
+}
+#meme {
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#memeText1,
+#memeText2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
+    
+}
+
+#memeText1 {
+    top: 10px;
+}
+
+
+#memeText2 {
+    bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 800px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.game {
+    position: relative;
+    top: 40px;
+}
+
+
+#download {
+    margin: 10px;
+}
+
+#white, #black {
+    margin: 5px;
+}
+
+footer {
+    position: absolute;
+    height: 30px;
+    bottom: 0;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 2px;
+    color: #ffffff;
+    background-color: #ffffff1e;
+}
+
+.animate-charcter
+{
+
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 50px;
+  position: relative;
+  top: 15px;
+  margin: 10px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
